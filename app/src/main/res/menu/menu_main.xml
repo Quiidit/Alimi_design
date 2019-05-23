@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="검색"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_menu1"
+        android:title="설정"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_action2"
+        android:title="도움말"
+        app:showAsAction="never" />
+
+
+
+</menu>
